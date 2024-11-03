@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="Author" content="Wiktor Kurek" />
+    <meta name ="keywords" content="jesień;miasto" />
+    <meta name="Description" content="Strona poświęcona zdjęciom jesieni w mieście" />
+    <title>Jesień w mieście</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+sans-serif" >
+</head>
+<body>
+<header id="scrolling">
+    <h1>Jesień w mieście</h1>
+</header>
+<main>
+    <nav id="scrolling2">
+        <ul>
+            <li><a href="index.html">Strona domowa</a></li>
+            <li><a href="gallery.html">Galeria</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+    <article>
+        <div class="form-container">
+          <form action="#" method="post">
+            <h1 class="contact-header">Napisz do mnie</h1>
+              
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Wpisz swój e-mail" required />
+
+            <label for="topic">Temat:</label>
+            <select id="topic" name="topic" required>
+              <option value="">Wybierz temat</option>
+              <option value="question">Pytanie</option>
+              <option value="opinion">Opinia</option>
+              <option value="other">Inne</option>
+            </select>
+
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" placeholder="Napisz wiadomość tutaj" required></textarea>
+    
+            <input type="submit" value="Wyślij" />
+          </form>
+        </div>
+    </article>
+</main>
+<footer>
+    <p>Jesień w mieście - Wiktor Kurek - 2024</p>
+</footer>
+</body>
+</html>
